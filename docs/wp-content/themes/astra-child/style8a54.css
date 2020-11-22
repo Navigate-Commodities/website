@@ -1,0 +1,803 @@
+/**
+Theme Name: Astra Child
+Version: 1.0.0
+Text Domain: astra-child
+Template: astra
+*/
+
+/*======================= GENERAL =====================*/
+
+hr {
+    margin: 35px 0 !important;
+    background: #e5f1f9 !important;
+}
+
+.tab-css .elementor-tab-title.elementor-tab-desktop-title.elementor-active {
+    border-left: 2px solid #005cb4;
+	font-weight: 600;
+}
+
+.elementor-tab-title.elementor-tab-desktop-title {
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+.hidden-item {
+    display: none; 
+}
+.visible-hidden {
+    visibility: hidden;
+}
+
+form#_form_5FB4F0F220C87_._form ._submit:hover {
+    box-shadow: 0px 0px 15px 0px rgb(255 255 255 / 50%) !important;
+}
+
+/*======================= HOMEPAGE CSS =====================*/
+
+.gc-btn-gradient .elementor-button {
+    width: 100%;
+    max-width: 215px;
+    padding: 22.5px 10px;
+    font-weight: bold;
+    color: #223962;
+	background-image: linear-gradient(140deg, #FFFFFF 50%, #9cd7ff 100%);
+}
+.gc-submit input[type="submit"] {
+    background-image: linear-gradient(140deg, #FFFFFF 50%, #9cd7ff 100%);
+    color: #223962;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    font-family: "Proxima Nova", Sans-serif;
+}
+.gc-submit input[type="submit"]:hover {
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+    color: #223962;
+}
+
+.gc-btn-blue .elementor-button {
+    width: 100%;
+    max-width: 215px;
+    padding: 22.5px 10px;
+    font-weight: bold;
+}
+
+/* ============================= Events ==================================== */
+.event-section > div {
+    display: inline-block;
+    vertical-align: middle;
+	padding: 1% 5.5% ;
+}
+
+.evm-date {
+    padding: 10px 20px !important;
+    width: 100%;
+    max-width: 15%;
+}
+
+.evm-date img {
+    content: url(../../uploads/2020/03/grey-calendar.png);
+    display: block;
+    text-align: right;
+    float: right;
+	margin: 0px 0 0 0;
+}
+
+.evm-title {
+    width: 100%;
+    max-width: 54%;
+	border-left: 1px solid #e5e5e5;
+}
+
+.evm-date-loc-signup {
+    width: 29%;
+	padding: 30px 10px  !important;
+}
+
+.author-person > * {
+    /* display: inline-block; */
+    margin: 0 !important;
+    color: #a5a5a5;
+}
+
+.evm-title h2 a {
+    font-size: 30px;
+	line-height: 1.3em;
+	display: block;
+}
+
+.evm-title img {
+	float: left;
+	border-radius: 50px;
+	width: 60px;
+	margin: 0 20px 0 0;
+}
+
+.author-person {
+    float: left;
+    line-height: 1em;
+    margin: 5px 0;
+}
+
+.author-person p {
+    font-size: 20px;
+}
+
+.author-person span {
+    font-size: 14px;
+}
+
+.evm-date h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.evm-date h2 {
+    line-height: 1em;
+    margin: 0 0 30px 0;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.event-section {
+    font-family: Proxima Nova;
+	padding: 30px 0px;
+    border-top: 2px solid #e5e5e5;
+}
+
+.evm-date-loc-signup h3 {
+    margin: 10px 0;
+    color: #006fc0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.evm-date-loc-signup p {
+    margin: 5px 0;
+    color: #8c8c8c;
+}
+span.event-time {
+    margin: 0 0 0px 10px;
+}
+
+a.elementor-post__read-more {
+    padding: 8px 15px;
+    background: #0071c1;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff !important;
+    border: 1px solid #0071c1;
+}
+
+a.elementor-post__read-more:hover  {
+    background: #ffffff;
+    color: #0071c1 !important;
+
+}
+
+/*======== CONTACT US ==============*/
+#ct-calendly {
+    background-color: #fff;
+    box-shadow: -20px 20px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+/*======================= PRICING AND TRIAL CSS =====================*/
+/* subscribe header and channel options  */
+._x93137906, ._field24 {
+    display: none;
+}
+.ct-form-subs ._x93137906, .ct-form-subs ._field24 {
+    display: block;
+}
+.astra-shop-thumbnail-wrap {
+    display: none;
+}
+.woocommerce-Price-amount::after {
+    content: ' per user per year';
+}
+.gc-currency-switch .currency_switcher_label {
+    display: none;
+}
+
+.gc-currency-switch #currency_switcher {
+    padding: 2px 10px 4px;
+    background: none;
+    font-family: "Proxima Nova", Sans-serif;
+    color: #121212;
+    border-color: #121212;
+}
+
+/*======================= INNER PAGES CSS =====================*/
+.team-leader-section form {
+    cursor: pointer;
+}
+.evm-date img:hover {
+    content: url(../../uploads/2020/03/grey-calendar-blu.png);
+}
+
+.tab-css:after {
+    content: url(../../uploads/2020/02/top-icon.png);
+    position: absolute;
+    right: calc(0px - 24%);
+    top: -250px;
+    z-index: -1;
+}
+.tab-css img {
+    padding-bottom: 20px;
+}
+
+span.head-css {
+    font-size: 8px;
+    vertical-align: top;
+    padding: 4px 3px 2px 3px;
+    background: #11c451;
+    color: #fff;
+    border-radius: 3px;
+}
+i.icon.icon-check {
+    content: url(../../uploads/2020/02/check-2.png);
+}
+
+.terms-cond li.elementor-icon-list-item:not(first-child) {
+    border-left: 1px solid #fff;
+    padding: 0px 0 0 20px;
+}
+
+.terms-cond li.elementor-icon-list-item:first-child {
+    border: none !important;
+}
+
+.terms-cond li.elementor-icon-list-item span {
+    line-height: 1;
+}
+
+/*.subs-form .gform_body {*/
+/*    display: inline-block;*/
+/*    max-width: 70% !important;*/
+/*    width: 100% !important;*/
+/*}*/
+
+/*.subs-form form#gform_2 {*/
+/*    display: flex;*/
+/*}*/
+
+/*.subs-form .gform_footer.top_label {*/
+/*    margin: 0;*/
+/*    max-width: 30%;*/
+/*    padding: 10px 10px;*/
+/*}*/
+
+/*.subs-form .gform_footer.top_label input#gform_submit_button_2 {*/
+/*    margin: 0 !important;*/
+/*    border: 1px solid #fff;*/
+/*    border-radius: 5px;*/
+/*    padding: 10px 30px !important;*/
+/*    font-size: 16px !important;*/
+/*	font-weight: 600 !important;*/
+/*}*/
+
+/*.subs-form input#input_2_1 {*/
+/*    border: 1px solid #fff;*/
+/*    padding: 15px 20px !important;*/
+/*    font-size: 16px;*/
+/*}*/
+.gc-text, .team-leader-section {font-family: 'Proxima Nova';}
+div#validation_message_1_6 {
+    display: none;
+}
+
+span.lite {
+    font-size: 14px;
+    vertical-align: top;
+    margin: 0px 0 0 10px;
+    padding: 4px 6px;
+    background: #1fd239;
+    border-radius: 5px;
+    display: inline-block;
+}
+/*======================= FOOTER CSS =====================*/
+
+
+/*======================= SLIDER CSS =====================*/
+.left-content{
+    width: 60%;
+    float: left;
+    height: 100% !important;
+    min-height: 650px;
+	padding: 0 0 0 29px;
+}
+
+.right-slider {
+    width: 40%;
+    float: left;
+    height: 100% !important;
+    min-height: 650px;
+}
+
+
+.team-social-med img {
+    max-width: 50px;
+}
+
+.full-image {
+    text-align: center;
+    padding: 40px 40px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.full-image img {
+    box-shadow: -30px 30px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.team-name-pos h3 {
+    font-weight: 600;
+    font-size: 36px;
+    margin: 0;
+    line-height: 1em;
+}
+
+.team-name-pos p {
+    font-size: 16px;
+    color: #acafb1;
+}
+
+.team-desc p {
+    font-size: 16px;
+}
+
+.carousel-indicators {
+	margin: 0px !important
+}
+
+ul.carousel-indicators li img {
+    display: block;
+}
+
+.carousel-indicators {
+    position: unset !important;
+}
+
+.carousel-indicators li {
+    width: unset !important;
+    height: unset !important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    padding: 30px;
+    border: 2px solid #0071c1;
+    border-radius: 50px;
+    color: red;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../../uploads/2020/02/arrow_carrot-right1.png) !important;
+    background-size: auto !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../../uploads/2020/02/arrow_carrot-right.png) !important;
+    background-size: auto !important;
+}
+
+a.carousel-control-prev {
+    left: -100px;
+}
+
+a.carousel-control-next {
+    right: -100px;
+}
+.leader-slider.carousel-inner {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+ul.carousel-indicators li p {
+    position: absolute;
+    z-index: 9999;
+    left: 0;
+    bottom: 0;
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 0;
+    display: none;
+}
+
+ul.carousel-indicators li {
+    position: relative !important;
+}
+
+
+body .carousel-indicators li {
+    box-sizing: unset !important;
+    -ms-flex: 0 1 auto;
+    flex: unset !important;
+    width: unset;
+    height: unset;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-indent: unset;
+    cursor: unset;
+    background-color: unset;
+    background-clip: unset;
+    border-top: unset;
+    border-bottom: unset;
+    opacity: unset;
+    transition: unset;
+}
+
+ul.carousel-indicators li:hover {
+    box-shadow: -20px 30px 20px 0px rgba(0, 0, 0, 0.2);
+	border-radius: unset;
+}
+
+ul.carousel-indicators li:hover p {
+    display: block;
+}
+ul.carousel-indicators li:hover img {
+    filter: grayscale(0);
+}
+
+ul.carousel-indicators li img {
+    filter: grayscale(1);
+}
+
+
+.slider-custom-arrows a.prev {
+    border: 1px solid #0071c1 !important;
+    padding: 25px 29px;
+    border-radius: 50px;
+    content: url(../../uploads/2020/02/arrow_carrot-right.png);
+}
+
+.slider-custom-arrows a.next {
+    border: 1px solid #0071c1 !important;
+    padding: 25px 29px;
+    border-radius: 50px;
+    content: url(../../uploads/2020/02/arrow_carrot-right1.png);
+}
+
+
+li.dot.active img {filter: grayscale(0);}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* Next & previous buttons */
+.slider-custom-arrows .prev, .slider-custom-arrows .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+ul.nav-img.home-tabs {
+    margin: 0;
+}
+
+ul.nav-img.home-tabs li img {
+    max-width: 100px;
+}
+
+ul.nav-img.home-tabs li {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-radius: unset !important;
+    text-align: center;
+}
+
+ul.nav-img.home-tabs li p {
+    display: inline-block;
+    margin: 0px 0px !important;
+}
+
+.tab-section .elementor-container {
+    padding: 20px 50px;
+    box-shadow: 0px 0px 20px 0px #00000030;
+    border-radius: 50px;
+    background: #fff;
+}
+
+.nav-tab-home {
+    position: absolute;
+    top: 50%;
+    z-index: 9999;
+}
+
+ul.nav-img.home-tabs .dot img {
+    filter: grayscale(1);
+}
+
+ul.nav-img.home-tabs .dot.active img {
+    filter: grayscale(0);
+}
+
+
+
+
+
+
+
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/*======================= RESPONSIVE CSS (FOR COMPLETE RESPONSIVE LIST PLEASE SEE HERE: https://tinyurl.com/y5zjzuzp )=====================*/
+
+@media screen and (max-width: 1366px) { 
+	/*YOUR CSS HERE*/
+}
+
+@media screen and (max-width: 1280px) { 
+	/*YOUR CSS HERE*/
+	a.carousel-control-prev {
+    left: -50px;
+	}
+
+	.contact-tabs .elementor-tab-title.elementor-tab-desktop-title {
+		padding: 10px 7px !important;
+	}
+		
+a.carousel-control-next {
+    right: -50px;
+}
+	
+	.container, .container-md, .container-sm {
+    max-width: 1024px !important;
+	}
+
+	
+}
+
+@media screen and (max-width: 1080px) { 
+	/*YOUR CSS HERE*/
+
+}
+
+@media screen and (max-width: 1024px) { 
+	/*YOUR CSS HERE*/
+}
+
+@media screen and (max-width: 980px) {
+	/*YOUR CSS HERE*/
+	.carousel-item-next, .carousel-item.active {
+        display: flex !important;
+        flex-wrap: wrap;
+    }
+
+    .left-content {
+        order: 1 !important;
+        float: unset !important;
+        width: 100%;
+    }
+    
+    .left-content, .right-slider {
+        min-height: unset;
+        width: 100%;
+    }
+    
+    .full-image {
+        max-width: 350px;
+    }
+    
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        padding: 20px;
+    }
+    	
+	.carousel-item.active {
+        display: flex;
+    }
+    	
+	ul.carousel-indicators {
+        display: block;
+    }
+    
+    
+    body .carousel-indicators li img {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    body .carousel-indicators li {
+        float: left;
+        width: calc(33.33% - 20px) !important;
+        margin: 0px auto;
+        margin: 10px;
+    }
+    .evm-date-loc-signup {
+        width: 100%;
+        padding: 10px 10px !important;
+    }
+    
+    .evm-date {
+        width: 100% !important;
+        max-width: 25%;
+    }
+    
+    .evm-title {
+        float: left;
+        padding:  0 10px !important;
+        border-left: none;
+    	max-width: 75%;
+        border-right: 2px solid #e5e5e5;
+    }
+/*     	.she-header-yes {
+        background: #0071c1;
+    } */
+	.gc-currency-section .elementor-container {
+		max-width: 500px!important;
+	}
+	
+}
+
+@media screen and (max-width: 767px) { 
+	/*YOUR CSS HERE*/
+	hr {
+    margin: 25px 0 !important;
+}	
+	a.carousel-control-prev {
+    left: -20px;
+}
+
+	a.carousel-control-next {
+    right: -20px;
+}
+
+
+}
+
+@media screen and (max-width: 766px) { 
+.tab-css .elementor-active {
+    background: white;
+    border: 1px solid #ccc !important;
+}
+
+.tab-css .elementor-tab-title.elementor-tab-mobile-title.elementor-active {
+    background: #0070c0;
+    color: #fff !important;
+    font-weight: 600 !important;
+}
+}
+
+@media screen and (max-width: 640px) { 
+	/*YOUR CSS HERE*/
+	body .carousel-indicators li {
+    width: calc(50% - 20px) !important;
+}
+	.evm-title {
+    float: unset;
+    max-width: 100%;
+}
+
+.evm-date img {
+    margin: 0;
+    float: unset;
+}
+
+.evm-title {
+    border: none;
+    max-width: 100%;
+}
+	.evm-date {
+    max-width: 100%;
+}
+	.gform_footer.top_label {
+    width: 100%;
+    display: block !important;
+    margin: 0 auto !important;
+    max-width: 100% !important;
+    padding: 10px 0px  !important;
+}
+
+.subs-form form#gform_2 {
+    display: block !important;
+}
+
+.subs-form .gform_body {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.subs-form .gform_footer.top_label input#gform_submit_button_2 {
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+}
+
+@media screen and (max-width: 425px) { 
+	/*YOUR CSS HERE*/
+}
+
+@media screen and (max-width: 375px) { 
+	/*YOUR CSS HERE*/
+}
+
+@media screen and (max-width: 320px) { 
+	/*YOUR CSS HERE*/
+}
