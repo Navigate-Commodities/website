@@ -1,7 +1,7 @@
 ---
 subscriptions:
 - title: Ben's CMS Test
-  description: ''
+  description: display this description instead
   price: "0"
   features:
   - can do b
