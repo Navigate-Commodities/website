@@ -1,5 +1,0 @@
-# Site settings
-title: Navigate Commodities
-baseurl: ""
-
-exclude: ['package.json', 'src' , 'node_modules']
